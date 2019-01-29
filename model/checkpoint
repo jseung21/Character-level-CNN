@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/sdsra/Documents/Char-level-tf/runs/1539649933_model_2/model.ckpt"
+all_model_checkpoint_paths: "/home/sdsra/Documents/Char-level-tf/runs/1539649933_model_2/model.ckpt"

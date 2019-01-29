@@ -1,0 +1,22 @@
+### Parameters ----------------------------------
+	epochs : 300
+	batch_size : 128
+	learning_rate : 0.0001
+	dropout_rate : 0.5
+	alphabet : abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'"/\|_@#$%^&*~`+-=<>()[]{}
+
+	char_max_length : 500
+	num_of_classes : 3
+	input_num_of_rows : 1
+### Values of Graph  ----------------------------------
+	<tf.Variable 'Layer1/conv2d/kernel:0' shape=(3, 3, 1, 64) dtype=float32_ref>
+	<tf.Variable 'Layer1/conv2d/bias:0' shape=(64,) dtype=float32_ref>
+	<tf.Variable 'Layer2/conv2d/kernel:0' shape=(3, 3, 64, 64) dtype=float32_ref>
+	<tf.Variable 'Layer2/conv2d/bias:0' shape=(64,) dtype=float32_ref>
+	<tf.Variable 'Layer3/conv2d/kernel:0' shape=(3, 3, 64, 128) dtype=float32_ref>
+	<tf.Variable 'Layer3/conv2d/bias:0' shape=(128,) dtype=float32_ref>
+	<tf.Variable 'FC/dense/kernel:0' shape=(72576, 1024) dtype=float32_ref>
+	<tf.Variable 'FC/dense/bias:0' shape=(1024,) dtype=float32_ref>
+	<tf.Variable 'dense/kernel:0' shape=(1024, 3) dtype=float32_ref>
+	<tf.Variable 'dense/bias:0' shape=(3,) dtype=float32_ref>
+--------------------------------------------------------------------

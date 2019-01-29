@@ -1,0 +1,147 @@
+0javax.servlet.http.HttpServlet.service (HttpServlet.java:120)
+0javax.servlet.http.HttpServlet.service (HttpServlet.java:97)
+0dispatch.ServletFilterChain.doFilter (ServletFilterChain.java:109)
+2# START TIME  : 2018/06/07 12:57:30.857
+2# FILE NAME : 20180607/20180607125730_HHDT58.1#10_ISD_F6V129STD.log
+0#
+0ConnectionTask.run (ConnectionTask.java:93)
+0SocketLinkThreadLauncher.handleTasks (SocketLinkThreadLauncher.java:169)
+0TcpSocketAcceptThread.run (TcpSocketAcceptThread.java:61)
+0env.thread2.ResinThread2.runTasks (ResinThread2.java:173)
+0env.thread2.ResinThread2.run (ResinThread2.java:118)
+0"resin-port-11.4.14.43:80-20106 BLOCKED
+0waiting on session.SessionImpl@7cd0a500
+0owned by "resin-port-11.4.14.43:80-20078"
+1Date;  Time;  Source Module; End-effector; Theta Offset; Radial Offset; RobotRadial; WaferID; LotID; WaferFlow; PortName; RecipeName
+13-7-2018; 25481; PM6; 5; -120;  1229567; PNH03000             -06; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 26572; PM6; -3;   -109; 1229567; PNH03000             -11; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 27654; PM6; 0;  -121; 1229567; PNH03000             -16; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 25481; PM6; 5; -120;  1229567; PNH03000             -06; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 26572; PM6; -3;   -109; 1229567; PNH03000             -11; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 27654; PM6; 0;  -121; 1229567; PNH03000             -16; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 25481; PM6; 5; -120;  1229567; PNH03000             -06; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 26572; PM6; -3;   -109; 1229567; PNH03000             -11; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+13-7-2018; 27654; PM6; 0;  -121; 1229567; PNH03000             -16; HHB858.1_064303; E_F6V110CUT_WE15_23456; Pro1; E_F6V110CUT_WE15; Dech
+0!DatalogFileV1.0 1523504023
+0dispatch.ServletFilterChain.doFilter (ServletFilterChain.java:109)
+0filters.GzipFilter.doFilter (GzipFilter.java:149)
+0#
+2# EQ_NAME : TOSGA6
+2# PM1.MODULE_NAME : PMA-1
+2# PM1.Recipe_Name : SION_ICECLN
+2# PM1.CURRENT_LOT_ID : G2B749.1_115552
+2# PM1.PM_WAFER_STATUS_A : 0
+2# PM1.PM_WAFER_STATUS_B : 0
+2# PM1.Recipe_Max_Step : 33
+0#
+0jsp.JavaPage.service(JavaPage.java:64)
+0jsp.Page.pageservice(Page.java:548)
+0#------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------
+1Time          Step_No.        [M04]_NF3_SET     [M04]_NF3_FLOW    [M04]_NF3_VALVE   [M04]_NF3_PRESS   [M04]_NF3_TEMP    [M04]_NF3_VALUE
+0#------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------
+1[12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0
+1[12:33:43.765]1               0                 1.000             0.000             45.802            31.619            0
+1[12:33:44.406]1               0                 0.000             0.000             45.802            31.619            4000
+1[12:33:44.781]1               0                 1.000             0.000             45.802            31.619            4000
+1[12:33:45.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+1[12:33:47.265]1               0                 1.000             0.000             45.794            31.619            4000
+0#
+0SocketLinkThreadLauncher.handleTasks(SocketLinkThreadLauncher.java:169)
+0TcpSocketAcceptThread.run(TcpSocketAcceptThread.java:61)
+0env.thread2.ResinThread2.runTasks(ResinThread2.java:173)
+0#------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------+------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------+------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------
+1Time          Step_No.        [M04]_NF3_SET     [M04]_NF3_FLOW    [M04]_NF3_VALVE   [M04]_NF3_PRESS   [M04]_NF3_TEMP    [M04]_NF3_VALUE   Time          Step_No.        [M04]_NF3_SET     [M04]_NF3_FLOW    [M04]_NF3_VALVE   [M04]_NF3_PRESS   [M04]_NF3_TEMP    [M04]_NF3_VALUE  Time          Step_No.        [M04]_NF3_SET     [M04]_NF3_FLOW    [M04]_NF3_VALVE   [M04]_NF3_PRESS   [M04]_NF3_TEMP    [M04]_NF3_VALUE
+0#------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------+------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------+------------+---------------+-----------------+-----------------+-----------------+-----------------+-----------------+-----------------
+1[12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0                [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0                [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0
+1[12:33:43.765]1               0                 1.000             0.000             45.802            31.619            0                [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0                [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0
+1[12:33:44.406]1               0                 0.000             0.000             45.802            31.619            4000             [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0                [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0
+1[12:33:44.781]1               0                 1.000             0.000             45.802            31.619            4000             [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0                [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0
+1[12:33:45.265]1               0                 1.000             0.000             45.794            31.619            4000             [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0                [12:33:43.453]1               0                 0.000             0.000             45.802            31.619            0
+0                             < Secu Event report >
+0
+0AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:408)
+0HiddenInputTag.writeTagContent(HiddenInputTag.java:45)
+0AbstractFormTag.doStartTagInternal(AbstractFormTag.java:102)
+0
+2  ID : S0001
+2  DATE : 2018-01-25
+0
+0
+0httpcache.ProxyCacheFilterChain.doFilter(ProxyCacheFilterChain.java:161)
+0webapp.DispatchFilterChain.doFilter(DispatchFilterChain.java:131)
+0
+0  -------------------------------------------------------------------------
+1  |  Seq  |    Time              |    Event Number         |     Etc      |
+0  -------------------------------------------------------------------------
+1  |  001  | 2018-01-25 14:12:11  | EV-00000002             |              |
+1  |  002  | 2018-01-25 15:32:59  | EV-00000034             |              |
+1  |  003  | 2018-01-25 16:35:30  | EV-00000043             | Critical     |
+1  |  004  | 2018-01-25 17:13:23  | EV-00000123             |              |
+1  |  005  | 2018-01-25 17:30:16  | EV-00000223             |              |
+1  |  006  | 2018-01-25 18:46:34  | EV-00000344             |              |
+1  |  007  | 2018-01-25 18:42:26  | EV-00000390             |              |
+1  |  008  | 2018-01-25 20:13:49  | EV-00000450             |              |
+0  -------------------------------------------------------------------------
+0dispatch.ServletInvocation.service(ServletInvocation.java:289)
+0webapp.RequestDispatcherforward(RequestDispatcherjava:298)
+0webapp.RequestDispatcherforward(RequestDispatcherjava:116)
+0servlet.context.ServletTilesRequestContext.forward(ServletTilesRequestContext.java:241)
+0servlet.context.ServletTilesRequestContext.dispatch(ServletTilesRequestContext.java:222)
+0renderer.TemplateAttributeRenderer.write(TemplateAttributeRenderer.java:44)
+0***********************************
+2Report : timing
+0       -path full
+0       -delay max
+0       -max_paths 1
+2Design : alu
+2Version: 2000.05
+2Date   : Tue Jun 18 16:02:59 2002
+0***********************************
+0filters.GzipFilter.doFilter(GzipFilter.java:149)
+0dispatch.FilterFilterChain.doFilter(FilterFilterChain.java:89)
+0
+2Operating Conditions: NCCOM Library: cb35io122d_typ
+2Wire Load Model Mode: segmented
+0
+2  Startpoint: aluCtl[1] (input port)
+2  Endpoint: condFlag[0]
+0          (output port)
+0
+2  Path Group: (none)
+2  Path Type: max
+0
+0
+0TcpSocketLink.dispatchRequest(TcpSocketLink.java:1346)
+0TcpSocketLink.handleRequest(TcpSocketLink.java:1302)
+0TcpSocketLink.handleRequestsImpl(TcpSocketLink.java:1286)
+0  ---------------------------------------------------------------
+1  Point                    Incr     Path
+0  ------------------------------------------------------------------------
+1  r24/U22/zn (inv0d0)       1.28    1.28 r
+1  r24/U21/zn (aoi22d1)      0.10    1.38 f
+1  r24/U1_0/co (ad01d1)      0.44    1.82 f
+1  r24/U1_1/co (ad01d1)      0.33    2.15 f
+1  r24/U1_2/co (ad01d1)      1.28    1.28 r
+1  r24/U1_3/co (ad01d1)      1.28    1.28 r
+1  r24/U1_4/co (ad01d1)      1.28    1.28 r
+1  r24/U1_5/co (ad01d1)      1.28    1.28 r
+1  r24/U1_6/co (ad01d1)      1.28    1.28 r
+1  r24/U1_7/co (ad01d1)      1.28    1.28 r
+1  r24/U1_8/co (ad01d1)      1.28    1.28 r
+1  r24/U1_9/co (ad01d1)      1.28    1.28 r
+1  r24/U1_10/co (ad01d1)     1.28    1.28 r
+1  U77/zn (aoi221d1)         0.21    7.18 f
+1  U119/zn (inv0d0)          0.55    7.73 r
+1  U75/zn (aoi22d1)          0.17    7.90 f
+0 -------------------------------------------------------------------------
+0TcpSocketLink.dispatchRequest(TcpSocketLink.java:1346)
+0TcpSocketLink.handleRequest(TcpSocketLink.java:1302)
+0TcpSocketLink.handleRequestsImpl(TcpSocketLink.java:1286)

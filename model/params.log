@@ -1,0 +1,9 @@
+epochs : 300
+batch_size : 128
+learning_rate : 1e-06
+dropout_rate : 0.5
+alphabet : abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'"/\|_@#$%^&*~`+-=<>()[]{}
+
+char_max_length : 500
+num_of_classes : 3
+input_num_of_rows : 1

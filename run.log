@@ -1,0 +1,2 @@
+conv3 :  Tensor("Layer3/conv2d/BiasAdd:0", shape=(?, 18, 125, 128), dtype=float32)
+pool3 :  Tensor("Layer3/max_pooling2d/MaxPool:0", shape=(?, 9, 63, 128), dtype=float32)
